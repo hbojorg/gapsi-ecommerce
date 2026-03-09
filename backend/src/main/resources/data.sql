@@ -1,0 +1,16 @@
+INSERT INTO proveedores (nombre, razon_social, direccion) VALUES
+('TechSupply', 'TechSupply S.A. de C.V.', 'Av. Tecnologia 100, Col. Industrial'),
+('MegaDistributor', 'MegaDistributor Corp.', 'Calle Comercio 250, Col. Centro'),
+('GlobalParts', 'Global Parts International', 'Blvd. Industrial 500, Zona Norte'),
+('AlphaLogistics', 'Alpha Logistics S.A.', 'Calle Logistica 30, Col. Norte'),
+('BetaProveedores', 'Beta Proveedores S.A. de C.V.', 'Av. Beta 77, Col. Sur'),
+('GammaImports', 'Gamma Imports Corp.', 'Blvd. Gamma 200, Zona Este'),
+('DeltaSupplies', 'Delta Supplies Ltd.', 'Calle Delta 15, Col. Oeste'),
+('EpsilonDistrib', 'Epsilon Distribuciones S.A.', 'Av. Epsilon 400, Col. Centro'),
+('ZetaMateriales', 'Zeta Materiales S.A. de C.V.', 'Blvd. Zeta 88, Zona Industrial'),
+('EtaCommerce', 'Eta Commerce Corp.', 'Calle Eta 310, Col. Comercial'),
+('ThetaGroup', 'Theta Group International', 'Av. Theta 55, Col. Reforma'),
+('IotaSolutions', 'Iota Solutions S.A.', 'Blvd. Iota 900, Zona Sur'),
+('KappaTrade', 'Kappa Trade S.A. de C.V.', 'Calle Kappa 123, Col. Industrial'),
+('LambdaSupply', 'Lambda Supply Corp.', 'Av. Lambda 640, Col. Norte'),
+('MuDistributor', 'Mu Distributor International', 'Blvd. Mu 270, Zona Centro');

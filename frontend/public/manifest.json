@@ -1,0 +1,16 @@
+{
+  "name": "Gapsi e-Commerce",
+  "short_name": "Gapsi",
+  "description": "Mantenimiento de Proveedores - Gapsi e-Commerce",
+  "theme_color": "#1976d2",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "161x74",
+      "type": "image/png"
+    }
+  ]
+}

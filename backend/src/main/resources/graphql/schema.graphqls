@@ -1,0 +1,36 @@
+type Query {
+    proveedores(page: Int = 0, size: Int = 10): ProveedorPage!
+    welcome: WelcomeInfo!
+}
+
+type Mutation {
+    crearProveedor(input: ProveedorInput!): Proveedor!
+    eliminarProveedor(id: ID!): Boolean!
+}
+
+type Proveedor {
+    id: ID!
+    nombre: String!
+    razonSocial: String!
+    direccion: String!
+}
+
+type ProveedorPage {
+    content: [Proveedor!]!
+    totalElements: Int!
+    totalPages: Int!
+    number: Int!
+    size: Int!
+}
+
+input ProveedorInput {
+    nombre: String!
+    razonSocial: String!
+    direccion: String!
+}
+
+type WelcomeInfo {
+    candidatoName: String!
+    welcomeMessage: String!
+    appVersion: String!
+}

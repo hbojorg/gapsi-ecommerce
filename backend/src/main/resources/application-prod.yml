@@ -1,0 +1,14 @@
+spring:
+  h2:
+    console:
+      enabled: false
+  jpa:
+    show-sql: false
+  graphql:
+    graphiql:
+      enabled: false
+
+logging:
+  level:
+    com.gapsi.ecommerce: WARN
+    org.springframework: WARN
